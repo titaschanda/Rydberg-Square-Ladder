@@ -3,7 +3,9 @@
 
 
 helper_func.py --> Basic function to generate local operators
+
 model.py --> Implementation of Bosons with spins (two leg ladder)
+
 run.py --> generate iMPS states and save on disk (input parameters: chi (bond dimension), U, and V) 
 
 Usage:
