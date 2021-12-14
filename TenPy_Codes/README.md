@@ -1,4 +1,7 @@
 # iMDRG Codes based on TeNPy 
+
+Example codes to generate iMPS for given bond dimension (chi), and the system parameters U and V, and then to calculate different quantities.
+
 =================================
 
 
