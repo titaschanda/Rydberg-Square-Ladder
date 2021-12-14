@@ -135,9 +135,6 @@ def operator(ops, ind, L, full_basis):
         ops = np.dot(ops[1], ops[0])
         tensor = myreduce((sp.eye(2**(2*L-x[0]-1)), ops, sp.eye(2**x[0])))
     else:
-        #print("op0", ops[0])
-        #print("op1", ops[1])
-        #tensor2 = reduce(np.kron, (np.eye(2**(2*L-x[1]-1)), ops[1].toarray(), np.eye(2**(x[1]-x[0]-1)), ops[0].toarray(), np.eye(2**x[0])))
         tensor = myreduce((sp.eye(2**(2*L-x[1]-1)), ops[1], sp.eye(2**(x[1]-x[0]-1)), ops[0], sp.eye(2**x[0])))
     
 
